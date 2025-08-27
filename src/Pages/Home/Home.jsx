@@ -3,6 +3,7 @@ import HeroSections from './Hero/HeroSections';
 import ServiceTiles from './ServiceTiles/ServiceTiles';
 import HowItWorks from './HowItWorks/HowItWorks';
 import CoverageAreas from './CoverageAreas/CoverageAreas';
+import TrustSection from './TrustSection/TrustSection';
 
 const Home = () => {
     return (
@@ -27,6 +28,12 @@ const Home = () => {
             <div className='secondery-color py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
                     <CoverageAreas></CoverageAreas>
+                </div>
+            </div>
+
+            <div className='secondery-color-2 py-16'>
+                <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
+                    <TrustSection></TrustSection>
                 </div>
             </div>
 

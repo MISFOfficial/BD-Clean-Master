@@ -11,6 +11,9 @@
 .primary-color {
   @apply bg-[#914896]
 }
+.primary-dim-color{
+  @apply bg-[#f9e5fa]
+}
 
 .primary-color-hover {
   @apply hover:bg-[#6a316e] duration-200
