@@ -5,6 +5,7 @@ import HowItWorks from './HowItWorks/HowItWorks';
 import CoverageAreas from './CoverageAreas/CoverageAreas';
 import TrustSection from './TrustSection/TrustSection';
 import Testimonials from './Testimonials/Testimonials';
+import PromoBanner from './PromoBanner/PromoBanner';
 
 const Home = () => {
     return (
@@ -41,6 +42,12 @@ const Home = () => {
             <div className='secondery-color py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
                     <Testimonials></Testimonials>
+                </div>
+            </div>
+
+            <div className='primary-color mb-10'>
+                <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
+                   <PromoBanner></PromoBanner>
                 </div>
             </div>
 
