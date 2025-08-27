@@ -1,6 +1,7 @@
 import { Outlet } from "react-router";
 import NavBar from "../Components/Navigations/NavBar";
 import HeaderTop from "../Components/HeaderTop/HeaderTop";
+import Footer from "../Components/Footer/Footer";
 
 const RootLayout = () => {
     return (
@@ -14,6 +15,12 @@ const RootLayout = () => {
                 </div>
             </div>
             <Outlet></Outlet>
+
+            <div className="primary-color pt-16 text-light">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <Footer></Footer>
+                </div>
+            </div>
         </div>
     );
 };
