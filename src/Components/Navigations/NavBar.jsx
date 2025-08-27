@@ -14,7 +14,7 @@ const NavBar = () => {
         { name: "Contact", path: "/contact" },
     ];
     return (
-        <nav className="bg-white shadow-md fixed w-full z-50">
+        <nav className="shadow-md sticky w-full z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
@@ -39,7 +39,7 @@ const NavBar = () => {
 
                         {/* Login/Register */}
                         <Link
-                            
+
                             className="px-4 py-2 rounded-lg border primary-border primary-text hover-primar-color-hover hover:text-white transition"
                         >
                             Login
@@ -47,7 +47,7 @@ const NavBar = () => {
 
                         {/* CTA */}
                         <Link
-                            
+
                             className="px-4 py-2 rounded-lg primary-color text-white primary-color-hover transition"
                         >
                             Book Now
@@ -85,7 +85,7 @@ const NavBar = () => {
                         ))}
 
                         <Link
-                            
+
                             onClick={() => setOpen(false)}
                             className="w-full text-center px-4 py-2 rounded-lg border primary-border primary-text hover-primar-color-hover hover:text-white transition"
                         >
@@ -93,7 +93,7 @@ const NavBar = () => {
                         </Link>
 
                         <Link
-                            
+
                             onClick={() => setOpen(false)}
                             className="w-full text-center px-4 py-2 rounded-lg primary-color text-white "
                         >

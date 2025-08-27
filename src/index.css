@@ -1,14 +1,45 @@
 @import "tailwindcss";
 
-.primary-color{
+
+
+:root {
+  background-image: url(../src/assets/clean.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 12;
+  background-attachment: fixed;
+}
+
+.primary-color {
   @apply bg-[#914896]
 }
-.primary-color-hover{
+
+.primary-color-hover {
   @apply hover:bg-[#6a316e] duration-200
 }
-.primary-border{
+
+.primary-border {
   @apply border-[#914896]
 }
-.primary-text{
+
+.primary-text {
   @apply text-[#914896]
+}
+
+.secondery-color {
+  @apply bg-white
+}
+
+
+.text-light {
+  @apply text-white
+}
+
+.text-dim-light {
+  @apply text-gray-300
+}
+
+.text-dark {
+  @apply text-gray-800
 }

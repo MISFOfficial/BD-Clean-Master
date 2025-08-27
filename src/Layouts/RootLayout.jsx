@@ -4,7 +4,9 @@ import NavBar from "../Components/Navigations/NavBar";
 const RootLayout = () => {
     return (
         <div>
-            <NavBar></NavBar>
+            <div className="secondery-color">
+                <NavBar></NavBar>
+            </div>
             <Outlet></Outlet>
         </div>
     );
