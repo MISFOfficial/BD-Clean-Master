@@ -22,7 +22,7 @@ const TrustSection = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
 
                 {/* Certifications */}
-                <div className="secondery-color rounded-2xl p-6 shadow-sm h-full ">
+                <div className="secondery-color-2 rounded-2xl p-6 shadow-sm h-full ">
                     <h3 className="text-xl font-semibold text-dark mb-4">Certifications</h3>
                     <div className="flex flex-wrap gap-4 items-center">
                         {certifications.map((c) => (
@@ -76,7 +76,7 @@ const TrustSection = () => {
                 </div>
 
                 {/* Insured & Bonded */}
-                <div className="secondery-color rounded-2xl p-6 shadow-md h-full flex flex-col justify-between">
+                <div className="secondery-color-2 rounded-2xl p-6 shadow-md h-full flex flex-col justify-between">
                     <div>
                         <div className="flex items-center gap-3 mb-4">
                             <div className="p-3 rounded-full bg-primary/10 primary-text">
