@@ -4,6 +4,7 @@ import ServiceTiles from './ServiceTiles/ServiceTiles';
 import HowItWorks from './HowItWorks/HowItWorks';
 import CoverageAreas from './CoverageAreas/CoverageAreas';
 import TrustSection from './TrustSection/TrustSection';
+import Testimonials from './Testimonials/Testimonials';
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
                     <HeroSections></HeroSections>
                 </div>
             </div>
-            <div className='py-16 bg-white'>
+            <div className='py-16 secondery-color'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0'>
                     <ServiceTiles></ServiceTiles>
                 </div>
@@ -34,6 +35,12 @@ const Home = () => {
             <div className='secondery-color-2 py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
                     <TrustSection></TrustSection>
+                </div>
+            </div>
+
+            <div className='secondery-color py-16'>
+                <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
+                    <Testimonials></Testimonials>
                 </div>
             </div>
 

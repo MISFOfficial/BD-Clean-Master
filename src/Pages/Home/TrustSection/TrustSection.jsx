@@ -102,7 +102,6 @@ const TrustSection = () => {
                         </Link>
                     </div>
                 </div>
-
             </div>
         </div>
     );
