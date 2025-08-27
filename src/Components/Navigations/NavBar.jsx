@@ -14,14 +14,13 @@ const NavBar = () => {
         { name: "Contact", path: "/contact" },
     ];
     return (
-        <nav className="shadow-md sticky w-full z-50">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <nav className="">
+            <div className="">
                 <div className="flex justify-between h-16 items-center">
                     {/* Logo */}
-                    <Link to="/" className="text-2xl font-bold primary-text">
-                        BD Clean Master
+                    <Link to="/" className="text-2xl font-extrabold primary-text ">
+                        BD-CM
                     </Link>
-
                     {/* Desktop Menu */}
                     <div className="hidden md:flex items-center space-x-6">
                         {navLinks.map((link) => (
