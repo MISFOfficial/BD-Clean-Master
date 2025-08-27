@@ -1,13 +1,10 @@
 @import "tailwindcss";
 
-
-
 :root {
   background-image: url(../src/assets/clean.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 12;
   background-attachment: fixed;
 }
 
