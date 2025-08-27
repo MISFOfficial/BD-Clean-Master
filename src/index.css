@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.primary-color{
+  @apply bg-[#914896]
+}
+.primary-color-hover{
+  @apply hover:bg-[#6a316e] duration-200
+}
+.primary-border{
+  @apply border-[#914896]
+}
+.primary-text{
+  @apply text-[#914896]
+}
