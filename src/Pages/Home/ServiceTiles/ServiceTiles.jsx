@@ -24,7 +24,7 @@ const ServiceTiles = () => {
                     <Link
                         to={service.link}
                         key={index}
-                        className="flex flex-col items-center p-6 bg-purple-50 shadow-lg text-center"
+                        className="flex flex-col items-center p-6 secondery-color-2 shadow-sm rounded-2xl text-center"
                     >
                         <div className="text-4xl mb-4 primary-text">{service.icon}</div>
                         <h3 className="font-semibold text-lg">{service.name}</h3>
