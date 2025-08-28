@@ -4,6 +4,7 @@ import Pricing from './Pricing/Pricing';
 import ServiceGuide from './ServiceGuide/ServiceGuide';
 import SafetyInfo from './SafetyInfo/SafetyInfo';
 import Gallery from './Gallery/Gallery';
+import ServiceFAQ from './ServiceFAQ/ServiceFAQ';
 
 const Services = () => {
     return (
@@ -31,10 +32,16 @@ const Services = () => {
                     <SafetyInfo></SafetyInfo>
                 </div>
             </div>
-          
+
             <div className='secondery-color-2 py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
                     <Gallery></Gallery>
+                </div>
+            </div>
+
+            <div className='secondery-color py-16'>
+                <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
+                    <ServiceFAQ></ServiceFAQ>
                 </div>
             </div>
 
