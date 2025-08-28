@@ -13,6 +13,7 @@ const NavBar = () => {
         { name: "Blog", path: "/blog" },
         { name: "Contact", path: "/contact" },
     ];
+    
     return (
         <nav className="">
             <div className="">
