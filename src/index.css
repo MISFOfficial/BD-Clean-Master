@@ -51,3 +51,11 @@
 .text-light-dark {
   @apply text-gray-600
 }
+
+
+.text-green{
+  @apply text-green-600
+}
+.text-red{
+  @apply text-red-600
+}

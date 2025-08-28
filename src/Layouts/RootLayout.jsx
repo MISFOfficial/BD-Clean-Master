@@ -14,7 +14,10 @@ const RootLayout = () => {
                     <NavBar></NavBar>
                 </div>
             </div>
-            <Outlet></Outlet>
+
+            <div className="min-h-screen">
+                <Outlet></Outlet>
+            </div>
 
             <div className="primary-color pt-16 text-light">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
