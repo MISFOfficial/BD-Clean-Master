@@ -5,6 +5,7 @@ import ServiceGuide from './ServiceGuide/ServiceGuide';
 import SafetyInfo from './SafetyInfo/SafetyInfo';
 import Gallery from './Gallery/Gallery';
 import ServiceFAQ from './ServiceFAQ/ServiceFAQ';
+import BookNowWidget from './BookNowWidget/BookNowWidget';
 
 const Services = () => {
     return (
@@ -42,6 +43,12 @@ const Services = () => {
             <div className='secondery-color py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
                     <ServiceFAQ></ServiceFAQ>
+                </div>
+            </div>
+
+            <div className='secondery-color py-16'>
+                <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
+                    <BookNowWidget></BookNowWidget>
                 </div>
             </div>
 

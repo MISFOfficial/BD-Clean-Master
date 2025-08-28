@@ -27,7 +27,6 @@ const ServiceFAQ = () => {
     const toggleFAQ = (index) => {
         setOpenIndex(openIndex === index ? null : index);
     };
-
     return (
         <div>
             <h2 className="text-3xl md:text-4xl font-bold text dark text-center mb-12">
