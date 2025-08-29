@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Error from "../Error/pageError404/Error";
 import Services from "../Pages/Services/Services";
 import Pricing from "../Pages/Pricing/Pricing";
+import Login from "../Pages/Login/Login";
 // import Error from "../Error/404/Error";
 
 export const router = createBrowserRouter([
@@ -28,5 +29,9 @@ export const router = createBrowserRouter([
     {
         path: '/*',
         Component: Error
+    },
+    {
+        path: '/login',
+        Component: Login
     }
 ])

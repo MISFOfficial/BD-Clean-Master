@@ -13,7 +13,7 @@ const NavBar = () => {
         { name: "Blog", path: "/blog" },
         { name: "Contact", path: "/contact" },
     ];
-    
+
     return (
         <nav className="">
             <div className="">
@@ -38,7 +38,7 @@ const NavBar = () => {
                         ))}
 
                         {/* Login/Register */}
-                        <Link
+                        <Link to={'/login'}
 
                             className="px-4 py-2 rounded-lg border primary-border primary-text hover-primar-color-hover hover:text-white transition"
                         >
@@ -47,7 +47,7 @@ const NavBar = () => {
 
                         {/* CTA */}
                         <Link
-
+                            to={'/pricing'}
                             className="px-4 py-2 rounded-lg primary-color text-white primary-color-hover transition"
                         >
                             Book Now
@@ -84,7 +84,7 @@ const NavBar = () => {
                             </NavLink>
                         ))}
 
-                        <Link
+                        <Link to={'/login'}
 
                             onClick={() => setOpen(false)}
                             className="w-full text-center px-4 py-2 rounded-lg border primary-border primary-text hover-primar-color-hover hover:text-white transition"
