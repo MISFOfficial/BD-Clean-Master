@@ -42,13 +42,13 @@ const Services = () => {
 
             <div className='secondery-color py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
-                    <ServiceFAQ></ServiceFAQ>
+                    <BookNowWidget></BookNowWidget>
                 </div>
             </div>
 
             <div className='secondery-color py-16'>
                 <div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 '>
-                    <BookNowWidget></BookNowWidget>
+                    <ServiceFAQ></ServiceFAQ>
                 </div>
             </div>
 
