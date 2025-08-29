@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { useNavigate } from "react-router";
 
 const PricingCalculator = () => {
+    const navigate = useNavigate();
+
     // base price per sq.ft
     const pricePerSqFt = 8; // example: 8 BDT per sq.ft
 
@@ -154,6 +157,16 @@ const PricingCalculator = () => {
                         Estimated Total: {total} BDT
                     </div>
                 )}
+            </div>
+
+            {/* Proceed to Booking Button */}
+            <div className="flex justify-center mt-8">
+                <button
+                    onClick={() => navigate("/book-now")}
+                    className="px-8 py-3 primary-color text-light cursor-pointer font-semibold rounded-xl hover:scale-105 transform transition duration-300"
+                >
+                    Proceed to Booking →
+                </button>
             </div>
         </div>
     );
