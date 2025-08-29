@@ -133,16 +133,6 @@ const PricingCalculator = () => {
                     </div>
                 </div>
 
-                {/* Coupon */}
-                <input
-                    type="text"
-                    name="coupon"
-                    placeholder="Enter coupon code (e.g. SAVE10)"
-                    value={formData.coupon}
-                    onChange={handleChange}
-                    className="w-full border border-gray-300 rounded-lg px-3 py-2 mb-4"
-                />
-
                 {/* Calculate Button */}
                 <button
                     onClick={calculateTotal}
