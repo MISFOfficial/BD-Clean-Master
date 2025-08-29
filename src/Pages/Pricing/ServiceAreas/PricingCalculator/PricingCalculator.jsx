@@ -63,40 +63,40 @@ const PricingCalculator = () => {
 
             {/* Transparent Pricing Table */}
             <div className="overflow-x-auto mb-12">
-                <table className="w-full border border-gray-200 shadow-md rounded-xl bg-white bg-opacity-90">
-                    <thead className="bg-gray-100">
+                <table className="w-full ">
+                    <thead className="primary-color text-light">
                         <tr>
-                            <th className="p-3 border">Service</th>
-                            <th className="p-3 border">Rate</th>
+                            <th className="p-3 border border-gray-300">Service</th>
+                            <th className="p-3 border border-gray-300">Rate</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <td className="p-3 border">General Cleaning</td>
-                            <td className="p-3 border">{pricePerSqFt} BDT / sq.ft</td>
+                            <td className="p-3 border border-gray-300">General Cleaning</td>
+                            <td className="p-3 border border-gray-300">{pricePerSqFt} BDT / sq.ft</td>
                         </tr>
                         <tr>
-                            <td className="p-3 border">Inside Fridge Cleaning</td>
-                            <td className="p-3 border">500 BDT</td>
+                            <td className="p-3 border border-gray-300">Inside Fridge Cleaning</td>
+                            <td className="p-3 border border-gray-300">500 BDT</td>
                         </tr>
                         <tr>
-                            <td className="p-3 border">Inside Oven Cleaning</td>
-                            <td className="p-3 border">400 BDT</td>
+                            <td className="p-3 border border-gray-300">Inside Oven Cleaning</td>
+                            <td className="p-3 border border-gray-300">400 BDT</td>
                         </tr>
                         <tr>
-                            <td className="p-3 border">Balcony Wash</td>
-                            <td className="p-3 border">600 BDT</td>
+                            <td className="p-3 border border-gray-300">Balcony Wash</td>
+                            <td className="p-3 border border-gray-300">600 BDT</td>
                         </tr>
                         <tr>
-                            <td className="p-3 border">Inside Cupboard</td>
-                            <td className="p-3 border">300 BDT</td>
+                            <td className="p-3 border border-gray-300">Inside Cupboard</td>
+                            <td className="p-3 border border-gray-300">300 BDT</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
 
             {/* Calculator Form */}
-            <div className="bg-white bg-opacity-95 shadow-lg rounded-2xl p-8 ">
+            <div className="secondery-color-2 bg-opacity-95 shadow-lg rounded-2xl p-8 ">
                 <h3 className="text-xl font-semibold mb-6 text-center">
                     Estimate Your Cost
                 </h3>
